@@ -95,7 +95,12 @@ final class ProductController extends AbstractController
 
         return $this->render(
             'product/edit.html.twig',
-            ["form" => $form],
+            [
+                "form" => $form,
+                "id" => $product->getId(),
+            ],
+        );
+    }
         );
     }
 }
