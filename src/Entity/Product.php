@@ -38,7 +38,7 @@ class Product
         return $this->name;
     }
 
-    public function setName(string $name): static
+    public function setName(?string $name): static
     {
         $this->name = $name;
 
@@ -62,7 +62,7 @@ class Product
         return $this->size;
     }
 
-    public function setSize(int $size): static
+    public function setSize(?int $size): static
     {
         $this->size = $size;
 
