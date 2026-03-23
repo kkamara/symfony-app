@@ -26,6 +26,8 @@
     Edit
 </a>
 
-    <a href="{{ path('product_index') }}">Back to list</a>
+<a href="{{ path('product_delete', {'id': product.id}) }}">Delete</a>
+
+<a href="{{ path('product_index') }}">Back to list</a>
 
 {% endblock %}
