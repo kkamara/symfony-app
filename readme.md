@@ -15,12 +15,27 @@ This repository follows Dave Hollingworth's course Learn Symfony in 1 Hour at ht
 ```bash
 cp .env.example .env
 composer i
+bin/console doctrine:migrations:migrate
+```
+
+#### Insert Seed Data Into Database
+
+```bash
+bin/console doctrine:fixtures:load
+# To not delete all DB data:
+bin/console doctrine:fixtures:load --append
 ```
 
 ## Usage
 
 ```bash
 symfony server:start
+```
+
+## Inline SQL
+
+```bash
+bin/console dbal:run-sql "SELECT * FROM product"
 ```
 
 ## Contributing
