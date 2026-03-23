@@ -29,7 +29,7 @@ final class ProductController extends AbstractController
         );
     }
 
-    #[Route("/product/new", name: 'product_new')]
+    #[Route("/product/new", name: 'product_new', methods: ['GET', 'POST'])]
     public function new(
         Request $request,
         EntityManagerInterface $manager,
