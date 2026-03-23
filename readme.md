@@ -1,0 +1,32 @@
+<img src="https://github.com/kkamara/useful/raw/main/php-reactjs-boilerplate.png" alt="php-reactjs-boilerplate.png" width=""/>
+
+<img src="https://github.com/kkamara/useful/raw/main/php-reactjs-boilerplate2.png" alt="php-reactjs-boilerplate2.png" width=""/>
+
+# symfony-app
+
+This repository follows Dave Hollingworth's course Learn Symfony in 1 Hour at https://www.youtube.com/watch?v=i_jgWZItCGI .
+
+## Installation
+
+* [PHP](https://herd.laravel.com)
+* [Composer](https://getcomposer.org)
+* [Symfony](https://symfony.com/doc/current/setup.html)
+
+```bash
+cp .env.example .env
+composer i
+```
+
+## Usage
+
+```bash
+symfony server:start
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[BSD](https://opensource.org/licenses/BSD-3-Clause)
